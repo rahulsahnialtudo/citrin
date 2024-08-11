@@ -10,7 +10,7 @@ type PlayButtonProps = {
 
 const PlayButton = ({ className, variant = 'primary', onClick }: PlayButtonProps) => {
   return (
-    <div className="play-button-container">
+    <div className="play-button-container test">
       <div className={cn('trigger play-button', className)} onClick={onClick}>
         <Image
           src="/icons/play.svg"
